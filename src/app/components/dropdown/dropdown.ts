@@ -793,7 +793,7 @@ export class Dropdown implements OnInit, AfterViewInit, AfterContentInit, AfterV
     }
 
     onMouseclick(event) {
-        if (this.disabled || this.readonly || this.isInputClick(event)) {
+        if (this.readonly || this.isInputClick(event)) {
             return;
         }
 
